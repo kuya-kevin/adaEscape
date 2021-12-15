@@ -1,0 +1,10 @@
+State: 3
+Count: 88
+Psyche: weeaboo
+Bag: egg(1)
+Day: Wednesday
+Anger: 5
+Hunger: 5
+Sleep: 5
+Perception: 5
+Sanity: 5

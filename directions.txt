@@ -1,0 +1,7 @@
+To compile Ada programs:
+    gnatmake escape.adb
+
+To run the executable program.
+    ./escape
+
+Expect the program to run the game "Escape."

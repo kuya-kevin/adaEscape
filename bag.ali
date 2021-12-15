@@ -1,0 +1,112 @@
+V "GNAT Lib v2020"
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U bag%b			bag.adb			0ca8814e NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W misc%s		misc.adb		misc.ali
+Z system%s		system.ads		system.ali
+Z system.concat_5%s	s-conca5.adb		s-conca5.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U bag%s			bag.ads			491346f4 EE NE OO PK IL
+W misc%s		misc.adb		misc.ali
+
+D ada.ads		20200819050642 76789da1 ada%s
+D a-charac.ads		20200819050641 2d3ec45b ada.characters%s
+D a-chlat1.ads		20200819050641 66457d31 ada.characters.latin_1%s
+D a-except.ads		20200819050642 a7106115 ada.exceptions%s
+D a-ioexce.ads		20200819050642 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200819050642 119b8fb3 ada.streams%s
+D a-string.ads		20200819050642 90ac6797 ada.strings%s
+D a-strfix.ads		20200819050642 86d6bc21 ada.strings.fixed%s
+D a-strmap.ads		20200819050642 e8bb714a ada.strings.maps%s
+D a-tags.ads		20200819050643 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050643 aef4d56d ada.text_io%s
+D a-unccon.ads		20200819050643 0e9b276f ada.unchecked_conversion%s
+D bag.ads		20210506155556 86ce211e bag%s
+D bag.adb		20210506155729 fd35c961 bag%b
+D interfac.ads		20200819050644 5ab55268 interfaces%s
+D i-cstrea.ads		20200819050644 e53d8b8e interfaces.c_streams%s
+D misc.ads		20210506155623 cfdd67ea misc%s
+D system.ads		20200819050647 085b6ffb system%s
+D s-conca5.ads		20200819050645 875e432e system.concat_5%s
+D s-crtl.ads		20200819050645 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050645 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050645 078245e4 system.file_control_block%s
+D s-imenne.ads		20200819050645 614c06c0 system.img_enum_new%s
+D s-imgint.ads		20200819050645 02dbe0c2 system.img_int%s
+D s-parame.ads		20200819050646 4752c4cb system.parameters%s
+D s-secsta.ads		20200819050646 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050646 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050646 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200819050646 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200819050646 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200819050646 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050646 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200819050646 1b7d22d2 system.wch_con%s
+G a e
+G c Z s b [getbag bag 16 13 none]
+G c Z s b [printbag bag 17 14 none]
+G c Z s b [deductitem bag 18 14 none]
+G c Z s b [additem bag 19 14 none]
+G c Z s b [inbag bag 20 13 none]
+G c Z s s [nodeIP bag 9 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 14|5r6 5r36 6r6 6r36 7r6 7r36
+X 7 a-string.ads
+16K13*Strings 35e16 14|6w10 6r40 7r10 7r40
+33n24*Left{33E9} 14|25r64 27r64
+X 8 a-strfix.ads
+43K21*Fixed 596e22 14|7w18 7r48
+468V13*Trim{string} 14|25s41 27s41
+X 11 a-textio.ads
+57K13*Text_IO 727e16 14|5w10 5r40
+508U14*Put_Line 14|13s10 14s10 67s13
+X 13 bag.ads
+5K9*bag 22l5 22e8 14|8b14 90l5 90t8
+7R9*Node 8r28 9c9 14e14 14|37r26 45r37
+8P9*Node_Ptr(7R9) 12r13 16r29 17r32 18r63 19r64 20r37 14|10r32 19r29 34r64
+. 51r63 53r73 75r37
+10e7*I{17|5E9} 14|13r24 25r25 27r25 39r22 56r21 80r18
+11i7*Count{integer} 14|14r24 25r51 27r51 40m22 40r40 57m21 57r35 58r24
+12p7*Next{8P9} 14|15r24 24r18 25r90 27r92 42r25 43m43 45m25 59r32 64m48 83r34
+16V13*getBag{string} 16>20 14|19b13 25s78 27s80 30l8 30t14
+16p20 Node{8P9} 14|19b20 21r10 24r13 25r20 25r46 25r85 27r20 27r46 27r87
+17U14*printBag 17>23 14|10b14 15s10 17l8 17t16
+17p23 Node{8P9} 14|10b23 12r10 13r19 14r19 15r19
+18U14*DeductItem 18>25 18>34 18=50 14|51b14 73l8 73t18
+18e25 I{17|5E9} 14|51b25 72r25
+18i34 Count{integer} 14|51b34 72r28
+18p50 Curr{8P9} 14|51b50 72m35
+19U14*addItem 19>22 19>31 19=47 14|34b14 43s16 49l8 49t15
+19e22 I{17|5E9} 14|34b22 37r32 39r26 43r24 45r43
+19i31 Count{integer} 14|34b31 37r34 40r48 43r27 45r46
+19p47 New_Node{8P9} 14|34b47 36r10 37m10 39r13 40r13 40r31 42r16 43r34 45r16
+20V13*inBag{boolean} 20>19 20>28 14|75b13 83s20 86l8 86t13
+20e19 I{17|5E9} 14|75b19 80r22 83r26
+20p28 Node{8P9} 14|75b28 77r10 80r13 83r29
+X 14 bag.adb
+53U17 DeductItemHelper 53b17 53>35 53>44 53=60 64s16 69l11 69t27 72s7
+53e35 I{17|5E9} 56r25 64r33
+53i44 Count{integer} 57r43 64r36
+53p60 Curr{13|8P9} 55r13 56r16 57r16 57r30 58r19 59m19 59r27 64r43
+X 17 misc.ads
+3K9*misc 13|3w6 3r16 14|4w6 4r16 17|14e9
+5E9*item 13|10r10 18r28 19r25 20r22 14|34r25 51r28 53r38 75r22 17|5e44
+

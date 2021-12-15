@@ -1,0 +1,10 @@
+State: 4
+Count: 9600
+Psyche: inLove
+Bag: Pill(20), egg(1)
+Day: Tuesday
+Anger: 1
+Hunger: 3
+Sleep: 4
+Perception: 7
+Sanity: 1

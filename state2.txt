@@ -1,0 +1,10 @@
+State: 2
+Count: 525600
+Psyche: angry
+Bag: egg(1)
+Day: Wednesday
+Anger: 3
+Hunger: 4
+Sleep: 5
+Perception: 6
+Sanity: 7

@@ -1,0 +1,41 @@
+V "GNAT Lib v2020"
+P ZX
+
+RN
+RV NO_ENUMERATION_MAPS
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U misc%b		misc.adb		a073b52e NE OO PK IL KM
+Z system%s		system.ads		system.ali
+Z system.val_enum%s	s-valenu.adb		s-valenu.ali
+
+U misc%s		misc.ads		cfdd67ea EE NE OO PK IL
+
+D misc.ads		20210506155623 cfdd67ea misc%s
+D misc.adb		20210506155616 6faed2c4 misc%b
+D system.ads		20200819050647 085b6ffb system%s
+D s-valenu.ads		20200819050646 6201ebfb system.val_enum%s
+G a e
+G c Z s b [stringtoitem misc 10 13 none]
+G c Z s b [stringtopsyche misc 12 13 none]
+X 1 misc.ads
+3K9*misc 14l5 14e9 2|3b14 15l5 15t9
+5E9*item 5e44 10r45 2|5r46 7r14
+5n18*Pill{5E9}
+5n24*Keycard{5E9}
+5n33*Egg{5E9}
+5n38*Shoes{5E9}
+6E9*Psyche 6e81 12r46 2|10r48 12r14
+6n20*peachy{6E9}
+6n28*homocidal{6E9}
+6n39*angry{6E9}
+6n46*confused{6E9}
+6n56*inLove{6E9}
+6n64*Weeaboo{6E9}
+6n73*Downbad{6E9}
+7I12*stat{integer}
+10V13*stringToItem{5E9} 10>26 2|5b13 8l8 8t20
+10a26 S{string} 2|5b27 7r26
+12V13*stringToPsyche{6E9} 12>28 2|10b13 13l8 13t22
+12a28 S{string} 2|10b29 12r28
+

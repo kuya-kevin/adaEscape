@@ -1,0 +1,258 @@
+V "GNAT Lib v2020"
+M P W=b
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_NESTED_FINALIZATION
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U escape%b		escape.adb		42be3e51 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.strings.unbounded.text_io%s  a-suteio.adb	a-suteio.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W bag%s			bag.adb			bag.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W misc%s		misc.adb		misc.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.val_int%s	s-valint.adb		s-valint.ali
+W week%s		week.adb		week.ali
+
+D ada.ads		20200819050642 76789da1 ada%s
+D a-charac.ads		20200819050641 2d3ec45b ada.characters%s
+D a-chlat1.ads		20200819050641 66457d31 ada.characters.latin_1%s
+D a-except.ads		20200819050642 a7106115 ada.exceptions%s
+D a-finali.ads		20200819050642 bf4f806b ada.finalization%s
+D a-ioexce.ads		20200819050642 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20200819050642 bb51c45a ada.numerics%s
+D a-nudira.ads		20200819050642 5984dff3 ada.numerics.discrete_random%s
+D a-nudira.adb		20200819050642 0bfd6ec4 ada.numerics.discrete_random%b
+D a-stream.ads		20200819050642 119b8fb3 ada.streams%s
+D a-string.ads		20200819050642 90ac6797 ada.strings%s
+D a-strmap.ads		20200819050642 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20200819050642 1656705b ada.strings.unbounded%s
+D a-suteio.ads		20200819050643 26d8e9aa ada.strings.unbounded.text_io%s
+D a-tags.ads		20200819050643 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050643 aef4d56d ada.text_io%s
+D a-unccon.ads		20200819050643 0e9b276f ada.unchecked_conversion%s
+D bag.ads		20210506155556 86ce211e bag%s
+D escape.adb		20210506155547 99aeb8f9 escape%b
+D interfac.ads		20200819050644 5ab55268 interfaces%s
+D i-cstrea.ads		20200819050644 e53d8b8e interfaces.c_streams%s
+D misc.ads		20210506155623 cfdd67ea misc%s
+D system.ads		20200819050647 085b6ffb system%s
+D s-atocou.ads		20200819050645 b45c2d8d system.atomic_counters%s
+D s-conca2.ads		20200819050645 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20200819050645 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050645 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050645 078245e4 system.file_control_block%s
+D s-finmas.ads		20200819050645 7811a767 system.finalization_masters%s
+D s-finroo.ads		20200819050645 4ff27390 system.finalization_root%s
+D s-imenne.ads		20200819050645 614c06c0 system.img_enum_new%s
+D s-imgint.ads		20200819050645 02dbe0c2 system.img_int%s
+D s-imguns.ads		20200819050645 9ff43cf7 system.img_uns%s
+D s-memory.ads		20200819050645 597d6634 system.memory%s
+D s-parame.ads		20200819050646 4752c4cb system.parameters%s
+D s-rannum.ads		20200819050646 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20200819050646 5f999925 system.random_numbers%b
+D s-ransee.ads		20200819050646 01a57b33 system.random_seed%s
+D s-secsta.ads		20200819050646 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050646 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050646 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200819050646 6b7a13f2 system.standard_library%s
+D s-stalib.adb		20200819050646 f2fe2716 system.standard_library%b
+D s-stoele.ads		20200819050646 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20200819050646 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20200819050646 e251976f system.storage_pools.subpools%s
+D s-stratt.ads		20200819050646 9a2744e9 system.stream_attributes%s
+D s-traent.ads		20200819050646 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050646 5ecf7212 system.unsigned_types%s
+D s-valint.ads		20200819050646 b5ff6963 system.val_int%s
+D s-valuns.ads		20200819050646 35067db9 system.val_uns%s
+D s-wchcon.ads		20200819050646 1b7d22d2 system.wch_con%s
+D week.ads		20210506083350 55fd5333 week%s
+G a e
+G c Z b b [escape standard 25 11 none]
+G r c none [escape standard 25 11 none] [stringtopsyche misc 12 13 none]
+G r c none [escape standard 25 11 none] [stringtodays week 5 13 none]
+G r c none [escape standard 25 11 none] [stringtoitem misc 10 13 none]
+G r c none [escape standard 25 11 none] [additem bag 19 14 none]
+G r c none [escape standard 25 11 none] [getbag bag 16 13 none]
+G r c none [escape standard 25 11 none] [daystostring week 6 13 none]
+G r c none [escape standard 25 11 none] [nextday week 7 13 none]
+G r c none [escape standard 25 11 none] [inbag bag 20 13 none]
+G r c none [escape standard 25 11 none] [deductitem bag 18 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 19|17r6 17r36 18r6 18r33 19r6 19r41 22r6 63r21 228r31
+X 7 a-numeri.ads
+16K13*Numerics 32e17 19|22r10 228r35
+X 8 a-nudira.ads
+44k22*Discrete_Random 81e33 19|22w19 228r44
+50R9 Generator<36|63R9> 19|230r13[228]
+52V13 Random{integer} 19|234s14[228]
+61U14 Reset<36|100p14> 19|233s7[228]
+X 9 a-nudira.adb
+53V16 Random[36|83]{integer} 37|393b13[19|228]
+65V16 Random[36|83]{integer} 37|393b13[19|228]
+X 11 a-string.ads
+16K13*Strings 35e16 19|18r10 18r37 19r10 19r45
+X 13 a-strunb.ads
+82K21*Unbounded 758e26 19|18w18 18r45 19r18 19r53
+87R9*Unbounded_String<5|43R9> 741e14 19|81r18 82r19 83r24 90r14 91r15 92r14
+92V13*Length{natural} 19|101s22 104s67 145s31 152s39 179s29 181s94 183s39
+103V13*To_Unbounded_String{87R9} 19|100s18 103s25 104s24 149s38 159s50 161s44
+. 181s38 193s50 200s38
+116V13*To_String{string} 19|102s16 103s45 104s44 107s42 112s42 115s42 118s43
+. 121s42 125s47 128s43 133s42 138s41 147s25 149s58 153s31 157s31 159s70 161s64
+. 169s50 170s53 181s58 185s31 191s31 193s70 200s58 202s50 203s53
+244V14*"="{boolean} 19|106s25 111s25 114s28 117s28 120s28 124s28 127s28 132s25
+. 137s25 142s25
+X 14 a-suteio.ads
+39K31*Text_IO 61e34 19|19w28 19r63
+X 16 a-textio.ads
+57K13*Text_IO 727e16 19|17w10 17r40 63r25
+64P9*File_Type 19|59r11 94r11
+66n23*In_File{66E9} 19|98r16
+66n32*Out_File{66E9} 19|63r33
+114U14*Open 19|61s7 98s7
+115p7 File{64P9} 19|61r13
+116e7 Mode{66E9} 19|63r13
+117a7 Name{string} 19|62r13
+129U14*Close 19|74s7 216s7
+264U14*New_Line 19|336s19 386s16 441s22 467s13 507s10 515s10 594s7
+312V13*End_Of_File{boolean} 19|99s17
+381U14*Get 19|285s10 328s10 378s10 471s16 487s16 514s10
+492V13*Get_Line{string} 19|100s38
+498U14*Put_Line 19|64s7 65s7 66s7 67s7 68s7 69s7 70s7 71s7 72s7 73s7
+508U14*Put_Line 19|235s7 258s16 279s10 281s10 282s10 283s10 286s10 290s16
+. 295s16 296s16 303s19 304s19 307s19 315s16 325s10 326s10 327s10 329s10 334s19
+. 335s19 339s19 342s16 350s19 351s19 354s19 361s16 372s10 373s10 374s10 375s10
+. 376s10 379s10 383s16 384s16 385s16 400s16 401s16 402s16 414s16 415s16 416s16
+. 425s19 430s22 433s22 438s19 440s22 458s16 470s16 473s19 479s19 485s16 486s16
+. 489s19 495s19 506s10 508s10 509s10 510s10 511s10 512s10 532s19 537s19 558s16
+. 565s16 575s16 576s16 577s16 584s16 595s7 596s7
+X 18 bag.ads
+5K9*bag 22e8 19|21w6 30r8
+8P9*Node_Ptr(7R9) 19|33r12
+16V13*getBag{string} 19|67s29
+18U14*DeductItem 19|271s10 431s22 434s22
+19U14*addItem 19|172s25 204s25 337s19 387s16 403s16 417s16 442s22
+20V13*inBag{boolean} 19|302s19 333s23 349s19 424s23 424s50 429s22 432s25
+. 439s26 567s19
+X 19 escape.adb
+25U11*escape 25b11 608l5 608t11
+33p4 Head{18|8P9} 67r36 172m55 172r55 204m55 204r55 271m30 271r30 302r31
+. 333r36 337m37 337r37 349r31 387m33 387r33 403m33 403r33 417m33 417r33 424r36
+. 424r61 429r33 431m41 431r41 432r38 434m43 434r43 439r41 442m42 442r42 567r33
+34e4 today{53|3E9} 68r29 138m19 260m16 260r33 344m16 344r33 533m19 533r36
+. 595r43
+36X4 try_again 292r22 299r22 466r15 569r25
+37i4 chances{integer}
+39A9 files(string)<integer> 40r13
+40a4 f_name{39A9} 236r12
+42I9 randRange<short_short_integer>
+45i4 State{integer} 64r30 107m19
+46e4 Mood{22|6E9} 66r32 133m19
+47i4 Anger{22|7I12} 69r30 115m19 248m13 248r22 251m16 446m22 446r31 449m25
+. 552m19 552r28 555m22
+48i4 Hunger{22|7I12} 70r31 118m19 390m19 390r29 393m22 405m19 405r29 408m22
+49i4 Sleep{22|7I12} 71r30 121m19 254m13 254r22 259m16 522r19 524m22 524r31
+. 527m25
+50i4 Perception{22|7I12} 72r35 125m19
+51i4 Sanity{22|7I12} 73r31 128m19 265m13 265r23 268m16 545m19 545r29 548m22
+52i4 Count{integer} 65r30 112m19
+53b4 Dead{boolean} 297m16 483r19 490m19
+54b4 Won{boolean} 291m16 469r16 474m19 568m19
+55e4 input{character} 285m14 287r15 328m14 330r15 378m14 381r15 471m20 472r19
+. 487m20 488r19 514m14 518r15
+57U14 write 57b14 75l8 75t13 237s7 261s16 311s16 345s16 357s16 395s16 410s16
+. 418s16 436s19 452s19 462s10 534s19 559s16 605s4
+59p7 F{16|64P9} 61m21 61r21 64r16 65r16 66r16 67r16 68r16 69r16 70r16 71r16
+. 72r16 73r16 74m13 74r13
+77U14 read 77b14 77>20 218l8 218t12 236s7 604s4
+77a20 File_Name{string} 98r25
+80i7 lastcommaindex{integer} 149r74 175m25 181r75
+81r7 temp_item{13|87R9} 149m25 152r46 153r41 157r41 159r80 161r74 163m31
+. 169r60 181m25 183r46 185r41 191r41 193r80 200m25 200r68 202r60
+82r7 temporary{13|87R9} 161m31 163r44
+83r7 temp_item_count{13|87R9} 159m31 170r63 193m31 203r63
+84i7 temp_close_paren{integer} 158m31 159r112 192m31 193r112
+85i7 temp_open_paren{integer} 155m31 159r91 161r88 187m31 193r91 200r82
+87i7 item_count{integer} 170m25 172r43 203m25 204r43
+88e7 item_add{22|5E9} 169m25 172r33 202m25 204r33
+90r7 line{13|87R9} 100m10 101r29 102r26 103r55 104r54 104r74
+91r7 first{13|87R9} 103m16 106r19 111r19 114r22 117r22 120r22 124r22 127r22
+. 132r19 137r19 142r19
+92r7 last{13|87R9} 104m16 107r52 112r52 115r52 118r53 121r52 125r57 128r53
+. 133r52 138r51 145r38 147r35 149r68 179r36 181r68 181r101
+94p7 F{16|64P9} 98m13 98r13 99r30 100r47 216m14 216r14
+101i14 i{integer} 102r32 103r65 104r61
+145i23 i{integer} 147r41 149r93 175r43 179r25
+152i29 j{integer} 153r52 155r50 157r52 158r51
+183i29 j{integer} 185r52 187r50 191r52 192r51
+224U14 generaterandomfile 224b14 238l8 238t26 476s19 492s19
+227I15 randRange{integer} 228r60 231r13 235r36
+228K15 Rand_Int[8|44] 229r11
+230r7 gen{8|50R9[228]} 233r13 234r21
+231i7 num{227I15} 234m7 235r52 236r19
+241U14 Start 241b14 262s16 346s16 477s19 493s19 535s19 600l8 600t13 606s4
+244U17 takePill 244b17 272l11 272t19 305s19 352s19
+276U17 path4 276b17 312s16 316s16 320l11 320t16 453s19
+322U17 path3 322b17 358s16 362s16 366l11 366t16 397s16 411s16 419s16
+368U17 path2 368b17 426s19 459s16 500l11 500t16 580s16
+502U17 path1 502b17 538s19 560s16 572s16 585s16 589l11 589t16 597s7
+X 20 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 22 misc.ads
+3K9*misc 19|23w6 31r8 22|14e9
+5E9*item 19|88r18 22|5e44
+5n18*Pill{5E9} 19|271r21 302r25 349r25 387r24 403r24 417r24
+5n24*Keycard{5E9} 19|439r32 442r30 567r25
+5n33*Egg{5E9} 19|424r56 429r28 431r33
+5n38*Shoes{5E9} 19|333r29 337r27 424r29 432r31 434r33
+6E9*Psyche 19|46r11 22|6e81
+7I12*stat{integer} 19|47r12 48r13 49r12 50r16 51r13
+10V13*stringToItem{5E9} 19|169s37 202s37
+12V13*stringToPsyche{6E9} 19|133s27
+X 23 system.ads
+67M9*Address
+X 34 s-memory.ads
+53V13*Alloc{23|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{23|67M9} 105i<c,__gnat_realloc>22
+X 36 s-rannum.ads
+75V13*Random{20|74M9} 37|221i21
+76V13*Random{20|77M9} 37|221i21
+X 43 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 53 week.ads
+1K9*Week 19|20w6 28r8 53|9e9
+3E9*Days 19|34r12 53|3e81
+5V13*stringToDays{3E9} 19|138s28
+6V13*DaystoString{string} 19|595s30
+7V13*nextDay{3E9} 19|260s25 344s25 533s28
+

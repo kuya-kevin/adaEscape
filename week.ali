@@ -1,0 +1,75 @@
+V "GNAT Lib v2020"
+P SS ZX
+
+RN
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U week%b		week.adb		52a46eaa NE OO PK KM
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.val_enum%s	s-valenu.adb		s-valenu.ali
+
+U week%s		week.ads		55fd5333 EE NE OO PK
+
+D ada.ads		20200819050642 76789da1 ada%s
+D a-except.ads		20200819050642 a7106115 ada.exceptions%s
+D a-ioexce.ads		20200819050642 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200819050642 119b8fb3 ada.streams%s
+D a-tags.ads		20200819050643 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050643 aef4d56d ada.text_io%s
+D a-unccon.ads		20200819050643 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200819050644 5ab55268 interfaces%s
+D i-cstrea.ads		20200819050644 e53d8b8e interfaces.c_streams%s
+D system.ads		20200819050647 085b6ffb system%s
+D s-crtl.ads		20200819050645 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050645 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050645 078245e4 system.file_control_block%s
+D s-imenne.ads		20200819050645 614c06c0 system.img_enum_new%s
+D s-parame.ads		20200819050646 4752c4cb system.parameters%s
+D s-secsta.ads		20200819050646 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050646 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050646 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200819050646 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200819050646 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200819050646 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050646 5ecf7212 system.unsigned_types%s
+D s-valenu.ads		20200819050646 6201ebfb system.val_enum%s
+D s-wchcon.ads		20200819050646 1b7d22d2 system.wch_con%s
+D week.ads		20210506083350 55fd5333 week%s
+D week.adb		20210506155545 a9ade8f4 week%b
+G a e
+G c Z s b [stringtodays week 5 13 none]
+G c Z s b [daystostring week 6 13 none]
+G c Z s b [nextday week 7 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 26|4r6 4r36
+X 6 a-textio.ads
+57K13*Text_IO 727e16 26|4w10 4r40
+X 25 week.ads
+1K9*Week 9l5 9e9 26|5b14 29l5 29t9
+3E9*Days 3e81 5r46 6r31 7r26 7r39 26|7r46 9r14 12r31 17r26 17r39 18r15 21r19
+3n18*Monday{3E9} 26|24r22
+3n26*Tuesday{3E9}
+3n35*Wednesday{3E9}
+3n46*Thursday{3E9}
+3n56*Friday{3E9}
+3n64*Saturday{3E9}
+3n74*Sunday{3E9}
+5V13*stringToDays{3E9} 5>27 26|7b13 10l8 10t20
+5a27 S{string} 26|7b27 9r26
+6V13*DaystoString{string} 6>27 26|12b13 15l8 15t20
+6e27 D{3E9} 26|12b27 14r14
+7V13*nextDay{3E9} 7>22 26|17b13 27l8 27t15
+7e22 D{3E9} 26|17b22 21r29
+X 26 week.adb
+18e7 today{25|3E9} 21m10 24m13 26r14
+

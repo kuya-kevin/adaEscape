@@ -1,0 +1,10 @@
+State: 3
+Count: 88
+Psyche: WEEABOO
+Bag: PILL(6), KEYCARD(1)
+Day: WEDNESDAY
+Anger: 7
+Hunger: 5
+Sleep: 5
+Perception: 5
+Sanity: 5

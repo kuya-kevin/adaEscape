@@ -1,0 +1,10 @@
+State: 5
+Count: 420
+Psyche: Downbad
+Bag: egg(1)
+Day: Wednesday
+Anger: 0
+Hunger: 0
+Sleep: 0
+Perception: 0
+Sanity: 0
