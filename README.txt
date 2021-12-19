@@ -11,4 +11,3 @@ To compile Ada programs:
 To run the executable program.
     ./escape
 
-Expect the program to run the game "Escape."
