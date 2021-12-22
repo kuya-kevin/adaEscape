@@ -1,6 +1,6 @@
 
 # "Escape" creative program
-### Kevin E, Adam H, Tim Wu. Team Ada
+### Kevin E, Adam H, Tim W. Team Ada
 
 Description: "Escape" is a text-based game that aims to highlight three features unique to Ada: nested subprograms, exception handling, and typing (derived types and subtypes). 
 
