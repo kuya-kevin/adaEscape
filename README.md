@@ -2,7 +2,7 @@
 # "Escape" creative program
 ### Kevin E, Adam H, Tim W. Team Ada
 
-Description: "Escape" is a text-based game that aims to highlight three features unique to Ada: nested subprograms, exception handling, and typing (derived types and subtypes). 
+"Escape" is a text-based game that aims to highlight three features unique to Ada: nested subprograms, exception handling, and typing (derived types and subtypes). 
 
 You are a patient in the hospital, and your task is to escape the building.
 
